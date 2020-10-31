@@ -3,10 +3,10 @@ from django.utils.translation import ugettext_lazy as _
 
 
 
-class ModelSearchConfig(AppConfig):
+class ModelCloneConfig(AppConfig):
     name = 'sw_modelclone'
     verbose_name = _("Model Clone")
 
 
-default_app_config = 'sw_modelclone.ModelSearchConfig'
+default_app_config = 'sw_modelclone.ModelCloneConfig'
 

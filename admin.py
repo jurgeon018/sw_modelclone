@@ -27,7 +27,7 @@ __all__ = 'ClonableModelAdmin',
 class ClonableModelAdmin(ModelAdmin):
 
     clone_verbose_name = lazy('Дублювати')
-    change_form_template = 'modelclone/change_form.html'
+    change_form_template = 'sw_modelclone/change_form.html'
     
     def clone_link(self, clonable_model):
         '''
